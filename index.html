@@ -464,8 +464,39 @@
 
       <article class="resume" data-page="resume">
 
-        <header>
+        <header style="display: flex; justify-content: space-between; align-items: center;">
           <h2 class="h2 article-title">Resume</h2>
+
+          <a href="assets/images/Angelos_Nikolaos_Potamianos_CV.pdf" download class="form-btn" style="
+      position: relative;
+      background: var(--border-gradient-onyx);
+      color: var(--orange-yellow-crayola);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 15px;
+      border-radius: 14px;
+      font-size: var(--fs-6);
+      text-transform: capitalize;
+      box-shadow: var(--shadow-3);
+      z-index: 1;
+      transition: var(--transition-1);
+      width: auto;
+      margin: 0;
+    ">
+            <span>Download CV</span>
+            <ion-icon name="download-outline"></ion-icon>
+            <div style="
+        content: '';
+        position: absolute;
+        inset: 1px;
+        background: var(--bg-gradient-jet);
+        border-radius: inherit;
+        z-index: -1;
+        transition: var(--transition-1);
+      "></div>
+          </a>
         </header>
 
         <section class="timeline">
